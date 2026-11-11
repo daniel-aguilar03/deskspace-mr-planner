@@ -1,0 +1,4 @@
+<linker>
+  <!-- GameObject.CreatePrimitive at runtime needs the primitive colliders; keep the physics module from being stripped -->
+  <assembly fullname="UnityEngine.PhysicsModule" preserve="all"/>
+</linker>
